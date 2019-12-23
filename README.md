@@ -7,6 +7,14 @@ https://vsaini.000webhostapp.com/Others/Gaming%20mouse%20Landing%20page/
 
 CSS:-
 
+Glow Animated Button
+
+![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Animated%20button/btn.gif)
+
+Blobs Gooey motion
+
+![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Blobs%20Gooey%20motion/blobs.gif)
+
 Eyes follow cursor
 
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Eye%20follow%20cursor/eye_follow_cursor.gif)
