@@ -7,7 +7,7 @@ https://vsaini.000webhostapp.com/Others/Gaming%20mouse%20Landing%20page/
 
 CSS:-
 
-Glow Animated Button
+Animated Button
 
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Animated%20button/btn.gif)
 
