@@ -1,0 +1,95 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* overflow: hidden; */
+    background-color: #000;
+}
+/*------------- Seperator -------------*/
+
+.seperator{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/*------------- Common Props -------------*/
+section{
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    padding: 20px 0;
+}
+.hexContainer{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    transition: 0.1s;
+}
+.hex-row {
+    display: flex;
+    margin-top: -14px;
+}
+.hex-row.even {
+    margin-left: 50px;
+}
+.hex{
+    position: absolute;
+    stroke-width: 6px;
+    stroke: transparent;
+    transition: 2s;
+}
+
+
+@keyframes colorify{
+    12.5% { fill: #FF0000; }
+    25% {   fill: #FFA500; }
+    37.5% { fill: #FFFF00; }
+    50% {   fill: #7FFF00; }
+    62.5% { fill: #00FFFF; }
+    75% {   fill: #0000FF; }
+    87.5% { fill: #9932CC; }
+    100% {  fill: #FF1493; }
+}
+
+/*------------- Hover Border -------------*/
+
+.hover-border .hex.bg path{
+    animation: colorify 8s infinite ease-in-out alternate;
+}
+
+.hover-border .hex.overlay path{
+    fill: rgb(26, 26, 26);
+} 
+
+.hover-border .hex.overlay:hover{
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+
+/*------------- Hover Fill -------------*/
+
+.hover-fill .hex.overlay path{
+    fill: rgb(26, 26, 26);
+}
+
+.hover-fill .hex.bg path{
+    opacity: 0;
+    animation: colorify 8s infinite ease-in-out;
+    transition: 1.2s;
+} 
+
+.hover-fill .hex.bg:hover path{
+    opacity: 1;
+    transition: 0.1s;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hexagon hover effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="seperator">Part 1</div>
+    <section>
+        <div class="container hover-border">
+            <div class="hex-row">
+                <div class="hexContainer">
+                    <svg class="hex bg" width="96" height="110" viewBox="0 0 96 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M48 0L95.6314 27.5V82.5L48 110L0.368603 82.5V27.5L48 0Z" fill="none"/>
+                    </svg>
+                    <svg class="hex overlay" width="96" height="110" viewBox="0 0 96 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M48 0L95.6314 27.5V82.5L48 110L0.368603 82.5V27.5L48 0Z" fill="none"/>
+                    </svg>                                                            
+                </div>
+            </div>
+            <div class="hex-row even">
+                <div class="hexContainer">    
+                    <svg class="hex bg" width="96" height="110" viewBox="0 0 96 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M48 0L95.6314 27.5V82.5L48 110L0.368603 82.5V27.5L48 0Z" fill="none"/>
+                    </svg>
+                    <svg class="hex overlay" width="96" height="110" viewBox="0 0 96 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M48 0L95.6314 27.5V82.5L48 110L0.368603 82.5V27.5L48 0Z" fill="none"/>
+                    </svg>   
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="seperator">Part 2</div>
+    <section>
+        <div class="container hover-fill">
+            <div class="hex-row">
+                <div class="hexContainer">
+                    <svg class="hex overlay" width="96" height="110" viewBox="0 0 96 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M48 0L95.6314 27.5V82.5L48 110L0.368603 82.5V27.5L48 0Z" fill="#C4C4C4"/>
+                    </svg>                                                            
+                    <svg class="hex bg" width="96" height="110" viewBox="0 0 96 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M48 0L95.6314 27.5V82.5L48 110L0.368603 82.5V27.5L48 0Z" fill="#C4C4C4"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="hex-row even">
+                <div class="hexContainer">    
+                    <svg class="hex overlay" width="96" height="110" viewBox="0 0 96 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M48 0L95.6314 27.5V82.5L48 110L0.368603 82.5V27.5L48 0Z" fill="#C4C4C4"/>
+                    </svg>   
+                    <svg class="hex bg" width="96" height="110" viewBox="0 0 96 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M48 0L95.6314 27.5V82.5L48 110L0.368603 82.5V27.5L48 0Z" fill="#C4C4C4"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script>
+        // Hover Border
+        let repeatsPerRow = 14;
+        for(let i=0; i<repeatsPerRow; i++){
+            let clone = document.querySelector('.hover-border .hexContainer').cloneNode( true );
+            document.querySelector('.hover-border .hex-row').appendChild( clone );
+        }
+        for(let i=0; i<repeatsPerRow-1; i++){
+            let clone = document.querySelector('.hover-border .hexContainer').cloneNode( true );
+            document.querySelector('.hover-border .hex-row.even').appendChild( clone );
+        }
+        let numRows = 3;
+        for(let i=0; i<numRows; i++){
+            let hexRow = document.querySelector('.hover-border .hex-row').cloneNode( true );
+            let hexRowEven = document.querySelector('.hover-border .hex-row.even').cloneNode( true );
+            document.querySelector('.container.hover-border').appendChild( hexRow );
+            document.querySelector('.container.hover-border').appendChild( hexRowEven );
+        }
+        
+        // Hover Border
+        repeatsPerRow = 14;
+        for(let i=0; i<repeatsPerRow; i++){
+            let clone = document.querySelector('.hover-fill .hexContainer').cloneNode( true );
+            document.querySelector('.hover-fill .hex-row').appendChild( clone );
+        }
+        for(let i=0; i<repeatsPerRow-1; i++){
+            let clone = document.querySelector('.hover-fill .hexContainer').cloneNode( true );
+            document.querySelector('.hover-fill .hex-row.even').appendChild( clone );
+        }
+        numRows = 3;
+        for(let i=0; i<numRows; i++){
+            let hexRow = document.querySelector('.hover-fill .hex-row').cloneNode( true );
+            let hexRowEven = document.querySelector('.hover-fill .hex-row.even').cloneNode( true );
+            document.querySelector('.container.hover-fill').appendChild( hexRow );
+            document.querySelector('.container.hover-fill').appendChild( hexRowEven );
+        }
+    </script>
+</body>
+</html>
