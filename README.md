@@ -23,6 +23,11 @@ Flashlight
 
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Flashlight/flashlight.gif)
 
+Hexagon Hover Effects
+
+![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Hexagon%20Hover%20Effect/hover-border.gif)
+![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Hexagon%20Hover%20Effect/hover-fill.gif)
+
 Loading circles
 
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Loading%20Round/loader_round.gif)
