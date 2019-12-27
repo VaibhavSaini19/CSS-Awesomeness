@@ -52,6 +52,7 @@ section{
 
 
 @keyframes colorify{
+    0% {    fill: #FF143B; }
     12.5% { fill: #FF0000; }
     25% {   fill: #FFA500; }
     37.5% { fill: #FFFF00; }
