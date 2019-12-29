@@ -35,3 +35,7 @@ Loading circles
 Loading bars
 
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Loading%20bars/loader_bars.gif)
+
+SVG Text Animation
+
+![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/SVG%20Text%20animation/svg_anim.gif)
