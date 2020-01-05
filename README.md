@@ -1,11 +1,5 @@
 # CSS-Awesomeness
-Just a bunch of nice CSS animations created by me for fun :) Enjoy: 
-
-Web pages:-
-
-https://vsaini.000webhostapp.com/Others/Gaming%20mouse%20Landing%20page/
-
-CSS:-
+Just a bunch of nice CSS animations & Landing Pages created by me for fun :) Enjoy: 
 
 Animated Button
 
@@ -23,6 +17,8 @@ Flashlight
 
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Flashlight/flashlight.gif)
 
+[Gaming Mouse Landing Page](https://vsaini.000webhostapp.com/Others/Gaming%20mouse%20Landing%20page/)
+
 Hexagon Hover Effects
 
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Hexagon%20Hover%20Effect/hover-border.gif)
@@ -35,6 +31,9 @@ Loading circles
 Loading bars
 
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Loading%20bars/loader_bars.gif)
+
+[Mountains MultiParallax effect](https://vsaini.000webhostapp.com/Others/Mountains%20MultiParallax%20effect/)
+![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Mountain%20MultiParallax%20effect/mountains.gif)
 
 SVG Text Animation
 
