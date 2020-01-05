@@ -18,6 +18,7 @@ Flashlight
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Flashlight/flashlight.gif)
 
 [Gaming Mouse Landing Page](https://vsaini.000webhostapp.com/Others/Gaming%20mouse%20Landing%20page/)
+![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Gaming%20Mouse%20Landing%20Page/mouse.gif)
 
 Hexagon Hover Effects
 
