@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.cover{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    animation: videofy 7s linear forwards;
+}
+
+@keyframes videofy{
+    0% { background-color: rgba(0, 0, 0, 0.25); }
+    25% { background-color: rgba(0, 0, 0, 0.25);; }
+    75% { background-color: rgba(0, 0, 0, 0.25);; }
+    100% { background-color: rgba(0, 0, 0, 0.5); }
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw; 
+    min-height: 100vh;
+    z-index: -1;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text{
+    font-size: 2.4em;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+}
+
+.text span{
+    display: inline-block;
+    /* min-width: 1.2em; */;
+    opacity: 0;
+    animation: appearIn 1.5s 1s ease-out forwards,
+               appearOut 1.5s 4.5s ease-in forwards;
+}
+
+.text .space{
+    display: inline-block;
+}
+
+
+@keyframes appearIn{
+    from { transform: scale(2); opacity: 0; margin: 5px;}
+    to { transform: scale(1); opacity: 0.8; margin: 0;}
+}
+@keyframes appearOut{
+    from { transform: scale(1); opacity: 0.8; margin: 0;}
+    to { transform: scale(2); opacity: 0; margin: 5px;}
+}
+
+/* ---------------------- Page ----------------------*/
+.page{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: lateAppear 1s 6s ease-in-out forwards;
+}
+@keyframes lateAppear{
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+}
+
+.page .nav{
+    padding: 2em;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.page .nav .logo{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.page .nav .logIn{
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.page .nav .logIn:hover{
+    color: black;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.page .content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page .content .heading{
+    margin-bottom: 3em;
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.page .content .cta{
+    color: white;
+    font-size: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+.page .content .cta:hover{
+    border: none;
+    font-weight: bold;
+    transform: scale(1.6);
+}
