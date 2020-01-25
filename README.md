@@ -36,6 +36,10 @@ Loading bars
 [Mountains MultiParallax effect](https://vsaini.000webhostapp.com/Others/Mountains%20MultiParallax%20effect/)
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Mountain%20MultiParallax%20effect/mountains.gif)
 
+Text Cycle Animation
+
+![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Text%20Cycle%20Animation/cycle%20text.gif)
+
 SVG Text Animation
 
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/SVG%20Text%20animation/svg_anim.gif)
