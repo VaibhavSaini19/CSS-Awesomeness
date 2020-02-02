@@ -1,0 +1,583 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+  position: relative;
+}
+
+body .bg-gradient video {
+  width: 100%;
+  height: 100%;
+}
+
+body .bg-gradient .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 8em;
+  font-weight: bold;
+  letter-spacing: 0.4em;
+  color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+body .bg-gradient .text span {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear forwards;
+          animation: fadeIn 1s linear forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-filter: blur(25px);
+            filter: blur(25px);
+  }
+  to {
+    opacity: 1;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-filter: blur(25px);
+            filter: blur(25px);
+  }
+  to {
+    opacity: 1;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+}
+
+body .bg-gradient .text span:nth-child(1) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+body .bg-gradient .text span:nth-child(2) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+body .bg-gradient .text span:nth-child(3) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+body .bg-gradient .text span:nth-child(4) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+body .bg-gradient .text span:nth-child(5) {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+body .bg-gradient .text span:nth-child(6) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+body .bg-gradient .text span:nth-child(7) {
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
+}
+
+body .bg-gradient .text span:nth-child(8) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+body .bg-gradient .text span:nth-child(9) {
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+
+body .bg-gradient .text span:nth-child(10) {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+body .bg-gradient .text span:nth-child(11) {
+  -webkit-animation-delay: 5.5s;
+          animation-delay: 5.5s;
+}
+
+body .bg-gradient .text span:nth-child(12) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+body .bg-gradient .text span:nth-child(13) {
+  -webkit-animation-delay: 6.5s;
+          animation-delay: 6.5s;
+}
+
+body .bg-gradient .text span:nth-child(14) {
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+
+body .bg-gradient .text span:nth-child(15) {
+  -webkit-animation-delay: 7.5s;
+          animation-delay: 7.5s;
+}
+
+body .bg-gradient .text span:nth-child(16) {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+body .bg-gradient .text span:nth-child(17) {
+  -webkit-animation-delay: 8.5s;
+          animation-delay: 8.5s;
+}
+
+body .bg-gradient .text span:nth-child(18) {
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+}
+
+body .bg-gradient .text span:nth-child(19) {
+  -webkit-animation-delay: 9.5s;
+          animation-delay: 9.5s;
+}
+
+body .bg-gradient .text span:nth-child(20) {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+body .bg-gradient .text span:nth-child(21) {
+  -webkit-animation-delay: 10.5s;
+          animation-delay: 10.5s;
+}
+
+body .bg-gradient .text span:nth-child(22) {
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+
+body .bg-gradient .text span:nth-child(23) {
+  -webkit-animation-delay: 11.5s;
+          animation-delay: 11.5s;
+}
+
+body .bg-gradient .text span:nth-child(24) {
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+body .bg-gradient .text span:nth-child(25) {
+  -webkit-animation-delay: 12.5s;
+          animation-delay: 12.5s;
+}
+
+body .bg-gradient .text span:nth-child(26) {
+  -webkit-animation-delay: 13s;
+          animation-delay: 13s;
+}
+
+body .bg-gradient .text span:nth-child(27) {
+  -webkit-animation-delay: 13.5s;
+          animation-delay: 13.5s;
+}
+
+body .bg-gradient .text span:nth-child(28) {
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+}
+
+body .bg-gradient .text span:nth-child(29) {
+  -webkit-animation-delay: 14.5s;
+          animation-delay: 14.5s;
+}
+
+body .bg-gradient .text span:nth-child(30) {
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+}
+
+body .bg-gradient .text span:nth-child(31) {
+  -webkit-animation-delay: 15.5s;
+          animation-delay: 15.5s;
+}
+
+body .bg-gradient .text span:nth-child(32) {
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+
+body .bg-gradient .text span:nth-child(33) {
+  -webkit-animation-delay: 16.5s;
+          animation-delay: 16.5s;
+}
+
+body .bg-gradient .text span:nth-child(34) {
+  -webkit-animation-delay: 17s;
+          animation-delay: 17s;
+}
+
+body .bg-gradient .text span:nth-child(35) {
+  -webkit-animation-delay: 17.5s;
+          animation-delay: 17.5s;
+}
+
+body .bg-gradient .text span:nth-child(36) {
+  -webkit-animation-delay: 18s;
+          animation-delay: 18s;
+}
+
+body .bg-gradient .text span:nth-child(37) {
+  -webkit-animation-delay: 18.5s;
+          animation-delay: 18.5s;
+}
+
+body .bg-gradient .text span:nth-child(38) {
+  -webkit-animation-delay: 19s;
+          animation-delay: 19s;
+}
+
+body .bg-gradient .text span:nth-child(39) {
+  -webkit-animation-delay: 19.5s;
+          animation-delay: 19.5s;
+}
+
+body .bg-gradient .text span:nth-child(40) {
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
+}
+
+body .bg-gradient .text span:nth-child(41) {
+  -webkit-animation-delay: 20.5s;
+          animation-delay: 20.5s;
+}
+
+body .bg-gradient .text span:nth-child(42) {
+  -webkit-animation-delay: 21s;
+          animation-delay: 21s;
+}
+
+body .bg-gradient .text span:nth-child(43) {
+  -webkit-animation-delay: 21.5s;
+          animation-delay: 21.5s;
+}
+
+body .bg-gradient .text span:nth-child(44) {
+  -webkit-animation-delay: 22s;
+          animation-delay: 22s;
+}
+
+body .bg-gradient .text span:nth-child(45) {
+  -webkit-animation-delay: 22.5s;
+          animation-delay: 22.5s;
+}
+
+body .bg-gradient .text span:nth-child(46) {
+  -webkit-animation-delay: 23s;
+          animation-delay: 23s;
+}
+
+body .bg-gradient .text span:nth-child(47) {
+  -webkit-animation-delay: 23.5s;
+          animation-delay: 23.5s;
+}
+
+body .bg-gradient .text span:nth-child(48) {
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+}
+
+body .bg-gradient .text span:nth-child(49) {
+  -webkit-animation-delay: 24.5s;
+          animation-delay: 24.5s;
+}
+
+body .bg-gradient .text span:nth-child(50) {
+  -webkit-animation-delay: 25s;
+          animation-delay: 25s;
+}
+
+body .bg-gradient .text span:nth-child(51) {
+  -webkit-animation-delay: 25.5s;
+          animation-delay: 25.5s;
+}
+
+body .bg-gradient .text span:nth-child(52) {
+  -webkit-animation-delay: 26s;
+          animation-delay: 26s;
+}
+
+body .bg-gradient .text span:nth-child(53) {
+  -webkit-animation-delay: 26.5s;
+          animation-delay: 26.5s;
+}
+
+body .bg-gradient .text span:nth-child(54) {
+  -webkit-animation-delay: 27s;
+          animation-delay: 27s;
+}
+
+body .bg-gradient .text span:nth-child(55) {
+  -webkit-animation-delay: 27.5s;
+          animation-delay: 27.5s;
+}
+
+body .bg-gradient .text span:nth-child(56) {
+  -webkit-animation-delay: 28s;
+          animation-delay: 28s;
+}
+
+body .bg-gradient .text span:nth-child(57) {
+  -webkit-animation-delay: 28.5s;
+          animation-delay: 28.5s;
+}
+
+body .bg-gradient .text span:nth-child(58) {
+  -webkit-animation-delay: 29s;
+          animation-delay: 29s;
+}
+
+body .bg-gradient .text span:nth-child(59) {
+  -webkit-animation-delay: 29.5s;
+          animation-delay: 29.5s;
+}
+
+body .bg-gradient .text span:nth-child(60) {
+  -webkit-animation-delay: 30s;
+          animation-delay: 30s;
+}
+
+body .bg-gradient .text span:nth-child(61) {
+  -webkit-animation-delay: 30.5s;
+          animation-delay: 30.5s;
+}
+
+body .bg-gradient .text span:nth-child(62) {
+  -webkit-animation-delay: 31s;
+          animation-delay: 31s;
+}
+
+body .bg-gradient .text span:nth-child(63) {
+  -webkit-animation-delay: 31.5s;
+          animation-delay: 31.5s;
+}
+
+body .bg-gradient .text span:nth-child(64) {
+  -webkit-animation-delay: 32s;
+          animation-delay: 32s;
+}
+
+body .bg-gradient .text span:nth-child(65) {
+  -webkit-animation-delay: 32.5s;
+          animation-delay: 32.5s;
+}
+
+body .bg-gradient .text span:nth-child(66) {
+  -webkit-animation-delay: 33s;
+          animation-delay: 33s;
+}
+
+body .bg-gradient .text span:nth-child(67) {
+  -webkit-animation-delay: 33.5s;
+          animation-delay: 33.5s;
+}
+
+body .bg-gradient .text span:nth-child(68) {
+  -webkit-animation-delay: 34s;
+          animation-delay: 34s;
+}
+
+body .bg-gradient .text span:nth-child(69) {
+  -webkit-animation-delay: 34.5s;
+          animation-delay: 34.5s;
+}
+
+body .bg-gradient .text span:nth-child(70) {
+  -webkit-animation-delay: 35s;
+          animation-delay: 35s;
+}
+
+body .bg-gradient .text span:nth-child(71) {
+  -webkit-animation-delay: 35.5s;
+          animation-delay: 35.5s;
+}
+
+body .bg-gradient .text span:nth-child(72) {
+  -webkit-animation-delay: 36s;
+          animation-delay: 36s;
+}
+
+body .bg-gradient .text span:nth-child(73) {
+  -webkit-animation-delay: 36.5s;
+          animation-delay: 36.5s;
+}
+
+body .bg-gradient .text span:nth-child(74) {
+  -webkit-animation-delay: 37s;
+          animation-delay: 37s;
+}
+
+body .bg-gradient .text span:nth-child(75) {
+  -webkit-animation-delay: 37.5s;
+          animation-delay: 37.5s;
+}
+
+body .bg-gradient .text span:nth-child(76) {
+  -webkit-animation-delay: 38s;
+          animation-delay: 38s;
+}
+
+body .bg-gradient .text span:nth-child(77) {
+  -webkit-animation-delay: 38.5s;
+          animation-delay: 38.5s;
+}
+
+body .bg-gradient .text span:nth-child(78) {
+  -webkit-animation-delay: 39s;
+          animation-delay: 39s;
+}
+
+body .bg-gradient .text span:nth-child(79) {
+  -webkit-animation-delay: 39.5s;
+          animation-delay: 39.5s;
+}
+
+body .bg-gradient .text span:nth-child(80) {
+  -webkit-animation-delay: 40s;
+          animation-delay: 40s;
+}
+
+body .bg-gradient .text span:nth-child(81) {
+  -webkit-animation-delay: 40.5s;
+          animation-delay: 40.5s;
+}
+
+body .bg-gradient .text span:nth-child(82) {
+  -webkit-animation-delay: 41s;
+          animation-delay: 41s;
+}
+
+body .bg-gradient .text span:nth-child(83) {
+  -webkit-animation-delay: 41.5s;
+          animation-delay: 41.5s;
+}
+
+body .bg-gradient .text span:nth-child(84) {
+  -webkit-animation-delay: 42s;
+          animation-delay: 42s;
+}
+
+body .bg-gradient .text span:nth-child(85) {
+  -webkit-animation-delay: 42.5s;
+          animation-delay: 42.5s;
+}
+
+body .bg-gradient .text span:nth-child(86) {
+  -webkit-animation-delay: 43s;
+          animation-delay: 43s;
+}
+
+body .bg-gradient .text span:nth-child(87) {
+  -webkit-animation-delay: 43.5s;
+          animation-delay: 43.5s;
+}
+
+body .bg-gradient .text span:nth-child(88) {
+  -webkit-animation-delay: 44s;
+          animation-delay: 44s;
+}
+
+body .bg-gradient .text span:nth-child(89) {
+  -webkit-animation-delay: 44.5s;
+          animation-delay: 44.5s;
+}
+
+body .bg-gradient .text span:nth-child(90) {
+  -webkit-animation-delay: 45s;
+          animation-delay: 45s;
+}
+
+body .bg-gradient .text span:nth-child(91) {
+  -webkit-animation-delay: 45.5s;
+          animation-delay: 45.5s;
+}
+
+body .bg-gradient .text span:nth-child(92) {
+  -webkit-animation-delay: 46s;
+          animation-delay: 46s;
+}
+
+body .bg-gradient .text span:nth-child(93) {
+  -webkit-animation-delay: 46.5s;
+          animation-delay: 46.5s;
+}
+
+body .bg-gradient .text span:nth-child(94) {
+  -webkit-animation-delay: 47s;
+          animation-delay: 47s;
+}
+
+body .bg-gradient .text span:nth-child(95) {
+  -webkit-animation-delay: 47.5s;
+          animation-delay: 47.5s;
+}
+
+body .bg-gradient .text span:nth-child(96) {
+  -webkit-animation-delay: 48s;
+          animation-delay: 48s;
+}
+
+body .bg-gradient .text span:nth-child(97) {
+  -webkit-animation-delay: 48.5s;
+          animation-delay: 48.5s;
+}
+
+body .bg-gradient .text span:nth-child(98) {
+  -webkit-animation-delay: 49s;
+          animation-delay: 49s;
+}
+
+body .bg-gradient .text span:nth-child(99) {
+  -webkit-animation-delay: 49.5s;
+          animation-delay: 49.5s;
+}
+
+body .bg-gradient .text span:nth-child(100) {
+  -webkit-animation-delay: 50s;
+          animation-delay: 50s;
+}
+
+body .bg-gradient::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#f00), color-stop(#f00), color-stop(#0f0), color-stop(#0ff), color-stop(#ff0), to(#0ff));
+  background: linear-gradient(to right, #f00, #f00, #0f0, #0ff, #ff0, #0ff);
+  mix-blend-mode: color;
+}
+/*# sourceMappingURL=style.css.map */

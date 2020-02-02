@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smoke text reveal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-gradient">
+        <video src="smoke.mp4" autoplay muted></video>
+        <div class="text">Vaibhav</div>
+    </div>
+
+    <script>
+        window.onload = () => {
+            let text = document.querySelector('.text').innerHTML.split("");
+            let newText = '';
+            console.log(text);
+            text.forEach((letter, index) => {
+                newText += '<span>' + letter + '</span>';
+            })
+            document.querySelector('.text').innerHTML = newText;
+        };
+    </script>
+</body>
+</html>
