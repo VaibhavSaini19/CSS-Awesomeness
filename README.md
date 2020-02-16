@@ -36,14 +36,12 @@ Loading bars
 [Mountains MultiParallax effect](https://vsaini.000webhostapp.com/Others/Mountains%20MultiParallax%20effect/)
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Mountain%20MultiParallax%20effect/mountains.gif)
 
-Particles effect p5
-![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Particles%20effect%20p5/particles.gif)
-
 SVG Text Animation
 
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/SVG%20Text%20animation/svg_anim.gif)
 
 Smoke text reveal
+
 ![](https://github.com/VaibhavSaini19/CSS-Awesomeness/blob/master/Smoke%20text%20reveal/text.gif)
 
 Text Cycle Animation
